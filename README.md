@@ -1,1 +1,10 @@
-# Hotel-Reservation-Prediction
+# Hotel Reservation Prediction
+
+Online hotel reservations have dramatically changed the possibilities of hotel bookings and customer behavior. A significant number of hotel reservations are canceled due to cancellations or guest no-shows. Common reasons for cancellations include changes in plans, scheduling conflicts, and so on.
+Reservation, also known as room booking, is commonly done by guests when they intend to book hotel rooms. With a reservation, guests can get the rooms they desire. Creating a model that can predict room reservations is highly beneficial for both hotels and guests. With advance reservations, the hotel's reservation department can predict the occupancy rate of rooms on a daily basis, facilitate scheduling for their staff, provide excellent service to guests from arrival to departure, prepare the rooms that have been booked by guests, estimate the daily occupancy rate, and predict revenue for specific periods.
+Research Objective:
+The objective of this research is to create a model to predict the likelihood of changing their booking status.
+Conclusion:
+The problem I aimed to solve was hotel reservations. Creating a model that can predict room reservations is highly beneficial for both hotels and guests. To address this problem, I developed several classification models and compared their performances.
+The best-performing model that solved this problem was the Random Forest model, with an accuracy rate of 90.18%, precision of 91.19%, and recall of 88.93%. The Random Forest model also exhibited a good ability to distinguish between positive and negative cases, with a ROC AUC value of 0.902.
+I also conducted hyperparameter tuning to improve the performance of the Random Forest model. After applying hyperparameter tuning using the Random Search technique, the model showed an improved performance with an accuracy rate of 90.38%, precision of 91.17%, and recall of 89.36%. Additionally, the model that underwent hyperparameter tuning experienced a slight increase in the ROC AUC value to 0.904.
